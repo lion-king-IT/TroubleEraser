@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 import kotlinx.android.synthetic.main.first_fragment.*
 
 class FirstFragment : Fragment() {
@@ -30,7 +31,9 @@ class FirstFragment : Fragment() {
             val title = edit_text.text.toString()
             val bundle = Bundle()
             bundle.putString("data",title)
+
         }
+
 
         how_button.setOnClickListener {
             val whyFragment = WhyFragment()
