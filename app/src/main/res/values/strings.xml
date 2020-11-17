@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Trouble Eraser</string>
+    <string name="trouble_titile">あなたの不安を解消して見せよう</string>
+    <string name="trouble_subtitile">お好きな不安をどうぞ</string>
+    <string name="why_titile">なんで？どうして？そう思う理由は？</string>
+    <string name="why_subtitile">具体的にしてみよう</string>
+    <string name="how_titile">今できることは何だろう？</string>
+    <string name="how_subtitile">何ができるのだろう？</string>
+    <string name="reason_btn">原因を追究する</string>
+    <string name="action_btn">動いてみる</string>
+    <string name="conclude_btn">おわりにする</string>
+</resources>

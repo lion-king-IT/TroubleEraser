@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#deb887">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不安なことを解消して差し上げよう"
+        android:textSize="20sp"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="お好きな不安をどうぞ"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/why_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="深堀る"
+            android:textColor="#FFFF"
+            android:backgroundTint="#008080"/>
+
+        <Button
+            android:id="@+id/how_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="先に進める"
+            android:textColor="#FFFF"
+            android:backgroundTint="#008080"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
